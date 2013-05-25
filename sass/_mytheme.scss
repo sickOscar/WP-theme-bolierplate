@@ -2,47 +2,35 @@
 @import "compass/css3";
 @import "compass/utilities";
 
-
-header#branding {
-    padding: 50px;
-
-    h1 {
-        font-size: 30px;
-        a { 
-			color: red; text-decoration: none;
-		}
-    }
-    h2 { font-size: 20px; }
-    nav { padding: 10px; }
+/**
+ * RESET CSS to default font size 16px
+ *
+ * 1em = 10px
+ *
+ * and proportional size for headers
+ */
+html {
+    /* font size di default per la maggior parte dei browser */
+    font-size: 16px;
 }
 
-article {
-	background-color: #ccc;
-	margin: 1px 30px;
-	padding: 10px;
-	
-	header h1 {
-		font-size: 18px;
-		
-		a {
-			text-decoration: none;
-			color: red;
-		}
-	}
-	
-	.entry-content {
-		p {
-			margin-top: 3px;
-			margin-bottom: 12px;
-			color: #555555;
-		}
-	}
+body {
+    /* quindi 1em corrisponde a 10px */
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
 }
 
-footer#colophon {
-    min-height: 100px;
-    background-color: #efefef;
-    margin-top: 30px;
-    padding: 30px;
-    border-top: 1px dashed #dddddd;
+h1 { font-size: 3.2em; }
+h2 { font-size: 2.8em; }
+h3 { font-size: 2.4em; }
+h4 { font-size: 2.0em; }
+h5 { font-size: 1.6em; }
+h6 { font-size: 1.0em; }
+
+p { font-size: 1.6em; }
+
+ul {
+  margin: 0;
+  padding: 0;
 }
+
