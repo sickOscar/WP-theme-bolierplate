@@ -2,35 +2,4 @@
 @import "compass/css3";
 @import "compass/utilities";
 
-/**
- * RESET CSS to default font size 16px
- *
- * 1em = 10px
- *
- * and proportional size for headers
- */
-html {
-    /* font size di default per la maggior parte dei browser */
-    font-size: 16px;
-}
-
-body {
-    /* quindi 1em corrisponde a 10px */
-    font-size: 62.5%;
-    font-family: Arial, sans-serif;
-}
-
-h1 { font-size: 3.2em; }
-h2 { font-size: 2.8em; }
-h3 { font-size: 2.4em; }
-h4 { font-size: 2.0em; }
-h5 { font-size: 1.6em; }
-h6 { font-size: 1.0em; }
-
-p { font-size: 1.6em; }
-
-ul {
-  margin: 0;
-  padding: 0;
-}
 
